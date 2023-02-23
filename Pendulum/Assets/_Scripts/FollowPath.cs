@@ -2,36 +2,29 @@ using UnityEngine;
 
 public class FollowPath : MonoBehaviour
 {
-    [SerializeField, Range(0f, .1f)] private float speed;
+    [SerializeField, Range(0.1f, 5f)] private float frequency = 0.5f;
+
+    [SerializeField] private Transform start;
+    [SerializeField] private Transform end;
 
     [SerializeField] private Transform ball;
-    [SerializeField] private Transform[] path;
 
-    private int currentPoint = 0;
+    [Header("Match the curve model")]
+    [SerializeField] private AnimationCurve curve;
+
+    private float timer = 0;
 
     private void Start()
     {
-        // Start the ball at the first position in the path
-        ball.position = path[currentPoint].position;
-
-        // Set the target to the next point in the path
-        currentPoint++;
     }
 
     private void Update()
     {
-        // Bounce the vale from the start of the the path to the end without looping
-        int pingpongedPoint = (int)Mathf.PingPong(currentPoint, path.Length - 1);
+        timer += Time.deltaTime * frequency;
 
-        // Move the ball to the next target position
-        ball.position = Vector3.MoveTowards(ball.position, target: path[pingpongedPoint].position, speed);
+        float t = Mathf.PingPong(timer, 1f);
 
-        // If the ball is within the very small range increse the current point variable
-        // to start the ball moving towards the next point in th apth
-        if (Vector3.Magnitude(ball.position - path[pingpongedPoint].position) < 0.001f)
-        {
-            // Increase the index in the path
-            currentPoint++;
-        }
+        ball.position = Vector3.Lerp(start.position, end.position, t);
+        ball.position += new Vector3(0, curve.Evaluate(t) * 0.8f, 0);
     }
 }
