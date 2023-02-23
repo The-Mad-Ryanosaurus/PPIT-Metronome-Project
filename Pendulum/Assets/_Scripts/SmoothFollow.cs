@@ -4,20 +4,13 @@ public class SmoothFollow : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private Transform target;
-    [SerializeField] private Transform cameraRig;
 
-    private Vector3 velocity;
-
-    private void Awake()
-    {
-        transform.position = target.position;
-        transform.rotation = target.rotation;
-    }
+    private float velocity;
 
     private void Update()
     {
+        float y = Mathf.SmoothDampAngle(transform.rotation.eulerAngles.y, target.rotation.eulerAngles.y, ref velocity, Time.smoothDeltaTime, speed);
 
-        transform.position = Vector3.SmoothDamp(transform.position, target.position, ref velocity, Time.smoothDeltaTime, speed);
-        transform.rotation = Quaternion.Euler(0, target.eulerAngles.y, 0);
+        transform.rotation = Quaternion.Euler(0, y, 0);
     }
 }
