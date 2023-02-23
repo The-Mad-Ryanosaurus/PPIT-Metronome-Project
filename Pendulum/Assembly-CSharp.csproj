@@ -43,6 +43,12 @@
      <Compile Include="Assets\_Scripts\FollowPath.cs" />
      <Compile Include="Assets\_Scripts\SmoothFollow.cs" />
      <Compile Include="Assets\_Scripts\Gyroscope.cs" />
+     <Compile Include="Assets\_Scripts\Settings.cs" />
+     <Compile Include="Assets\_Scripts\MonoSingleton.cs" />
+     <Compile Include="Assets\_Scripts\FadeOut.cs" />
+     <Compile Include="Assets\_Scripts\SettingsSeletor.cs" />
+     <Compile Include="Assets\BallScaleSetting.cs" />
+     <Compile Include="Assets\HeightAndDistanceSetting.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

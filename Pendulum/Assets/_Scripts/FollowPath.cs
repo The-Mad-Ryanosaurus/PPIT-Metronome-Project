@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class FollowPath : MonoBehaviour
 {
-    [SerializeField, Range(0.1f, 5f)] private float frequency = 0.5f;
-
     [SerializeField] private Transform start;
     [SerializeField] private Transform end;
 
@@ -17,7 +15,7 @@ public class FollowPath : MonoBehaviour
     private void Update()
     {
         // Update the timer for lerping at the given frequency
-        timer += Time.deltaTime * frequency;
+        timer += Time.deltaTime * Settings.Frequency;
 
         // PingPong will return a value between 0 and 1
         float t = Mathf.PingPong(timer, 1f);
