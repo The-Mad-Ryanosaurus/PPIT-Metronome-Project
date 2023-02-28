@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 
 using TMPro;
 
@@ -21,6 +22,23 @@ public class SettingsSeletor : MonoBehaviour
     private void Awake()
     {
         text = GetComponent<TMP_Text>();
+        Settings.Load();
+
+        StartCoroutine(StartCoroutine());
+    }
+
+    private IEnumerator StartCoroutine()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(10f);
+            Settings.Save();
+        }
+    }
+
+    private void OnApplicationQuit()
+    {
+        Settings.Save();
     }
 
     private void Update()

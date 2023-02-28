@@ -9,11 +9,6 @@ public class Settings
     public static float Height;
     public static float TurnSpeed;
 
-    static Settings()
-    {
-        Load();
-    }
-
     public static void Load()
     {
         FieldOfView = PlayerPrefs.GetFloat("FieldOfView", 40f);
@@ -22,11 +17,6 @@ public class Settings
         BallSize = PlayerPrefs.GetFloat("BallSize", .5f);
         Height = PlayerPrefs.GetFloat("Height", 5f);
         TurnSpeed = PlayerPrefs.GetFloat("TurnSpeed", 10f);
-    }
-
-    private void OnApplicationQuit()
-    {
-        Save();
     }
 
     public static void Save()
