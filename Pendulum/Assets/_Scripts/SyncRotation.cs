@@ -4,7 +4,7 @@ public class SyncRotation : MonoBehaviour
 {
     [SerializeField] private Transform gyro;
 
-    private void Update()
+    private void LateUpdate()
     {
         transform.localRotation = gyro.rotation;
     }

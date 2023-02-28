@@ -11,6 +11,8 @@ public class SettingsSeletor : MonoBehaviour
         "Distance",
         "Height",
         "Ball Size",
+        "Field Of View",
+        "Turn Speed",
     };
     private int currentSetting = 0;
 
@@ -42,15 +44,16 @@ public class SettingsSeletor : MonoBehaviour
         {
             currentSetting = 0;
         }
-
         // Display the current setting
-        DisplaySetting(ref Settings.I.Json.Frequency, 0, 0.1f);
-        DisplaySetting(ref Settings.I.Json.Distance, 1, 0.5f);
-        DisplaySetting(ref Settings.I.Json.Height, 2, 0.5f);
-        DisplaySetting(ref Settings.I.Json.BallSize, 3, 0.1f);
+        Settings.Frequency = DisplaySetting(Settings.Frequency, 0, 0.1f);
+        Settings.Distance = DisplaySetting(Settings.Distance, 1, 0.5f);
+        Settings.Height = DisplaySetting(Settings.Height, 2, 0.2f);
+        Settings.BallSize = DisplaySetting(Settings.BallSize, 3, 0.1f);
+        Settings.FieldOfView = DisplaySetting(Settings.FieldOfView, 4, 1f);
+        Settings.TurnSpeed = DisplaySetting(Settings.TurnSpeed, 5, 2f);
     }
 
-    private void DisplaySetting(ref float setting, int index, float step)
+    private float DisplaySetting(float setting, int index, float step)
     {
         if (currentSetting == index)
         {
@@ -60,12 +63,14 @@ public class SettingsSeletor : MonoBehaviour
             // Change the setting with the up and down arrow keys by the given step
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
-                setting += step;
+                return setting + step;
             }
             else if (Input.GetKeyDown(KeyCode.DownArrow))
             {
-                setting -= step;
+                return setting - step;
             }
         }
+
+        return setting;
     }
 }
