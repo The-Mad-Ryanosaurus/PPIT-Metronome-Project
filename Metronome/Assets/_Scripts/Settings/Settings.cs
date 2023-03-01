@@ -13,10 +13,10 @@ public class Settings
     {
         FieldOfView = PlayerPrefs.GetFloat("FieldOfView", 40f);
         Frequency = PlayerPrefs.GetFloat("Frequency", 1f);
-        Distance = PlayerPrefs.GetFloat("Distance", 10f);
+        Distance = PlayerPrefs.GetFloat("Distance", 12f);
         BallSize = PlayerPrefs.GetFloat("BallSize", .5f);
-        Height = PlayerPrefs.GetFloat("Height", 5f);
-        TurnSpeed = PlayerPrefs.GetFloat("TurnSpeed", 10f);
+        Height = PlayerPrefs.GetFloat("Height", 3f);
+        TurnSpeed = PlayerPrefs.GetFloat("TurnSpeed", 40f);
     }
 
     public static void Save()
