@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4747a550-cd3c-c881-f046-6efd4f4557c8}</ProjectGuid>
+    <ProjectGuid>{79c199da-fd1e-7965-345b-4b94cb9a507e}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -47,8 +47,8 @@
      <Compile Include="Assets\_Scripts\Settings\BallScaleSetting.cs" />
      <Compile Include="Assets\_Scripts\FollowPath.cs" />
      <Compile Include="Assets\_Scripts\SmoothFollow.cs" />
-     <Compile Include="Assets\_Scripts\Gyroscope.cs" />
      <Compile Include="Assets\_Scripts\Settings\FovSetting.cs" />
+     <Compile Include="Assets\_Scripts\Gyroscope.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -308,13 +308,13 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -689,88 +689,88 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>A:\PPIT-Pendulum-Project\Pendulum\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>A:\PPIT-Pendulum-Project\Metronome\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
