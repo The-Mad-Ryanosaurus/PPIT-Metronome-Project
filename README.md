@@ -2,7 +2,7 @@
 Professional Practice in IT
 </h1>
 <h2 align="center">
-Pendulum
+Metronome
 </h2>
 <h4 align="center">
 Group Project By
