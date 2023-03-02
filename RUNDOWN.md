@@ -12,12 +12,21 @@ The following is a list of tasks that by the end of development we hope to have 
 3.	Tracking of Head Movements to the user’s specification (Metronome locked on the x axis and cannot move up or down).
 4.	User adjustable settings for the Metronomes height and distance it appears from a user, its speed back and forth and the Metronomes ball size.
 5.	Sound working so that when the Metronome hits both ends of the curve it makes a ticking noise. (Can be turned on or off by a user).
+
 ### What is accomplished so far?
-So far goals 1-4 have been accomplished. Goal 5 is being worked on currently. What we need now is feedback so we can adjust the application to our customer/clients’ specifications, if they have any.
+So far goals 1-4 have been accomplished. Goal 5 is being worked on currently. What we need now is feedback so we can adjust the application to our customer/clients' specifications, if they have any.
 
 ## Project Build
 The following will explain how we have developed our project so far.
-The application started in Unity where we began using and testing the headset for tracking ability via its gyroscope. It was quite easy to use as it is an android device and as such all that was required was to switch the build environment from unity to android and use unity remote 5 for testing. We then added the Moverio sdk (software development kit) to our project application and that gave us access to more functionality in the headset such as being able to go from a 2D view to a 3D view in our application. A grid was then built-in unity to mimic the floor so we could see just how well the tracking and viewing of the world would look in real time. After this the curve and ball for the Metronome were built in blender. Blender is a 3D computer graphics software application that allows for the building of 3D models and much more. Once that was done, we imported the Metronome into unity and from there created an array of empty objects along the curve that the ball uses to move along, one after the other. After this a user interface was implemented to allow setting changes for the Metronome. Now we aim to get sound working so that when the Metronome hits each end of the curve it will make a ticking noise.
 
-## Problem 
-Glasses suck. What other tech is there? Lack of ability for headset to anchor the metronome doesnt solve main head bob issue.
+The application started in Unity where we began using and testing the headset for tracking ability via its gyroscope. It was quite easy to use as it is an android device and as
+such all that was required was to switch the build environment from unity to android and use unity remote 5 for testing. We then added the Moverio sdk (software development kit)
+to our project application and that gave us access to more functionality in the headset such as being able to go from a 2D view to a 3D view in our application. A grid was then
+built-in unity to mimic the floor so we could see just how well the tracking and viewing of the world would look in real time. After this the curve and ball for the Metronome
+were built in blender. Blender is a 3D computer graphics software application that allows for the building of 3D models and much more. Once that was done, we imported the
+Metronome into unity and from there created a animation curve for the ball to move along. After this a user interface was implemented to allow setting changes for the Metronome.
+Our next goal is to get user feedback and to research better devices the customer could potentially use.
+
+## Problems
+Glasses are not capable of spatially tracking the headset so the head bobbing will not be counteracted but the glasses are able to track rotation so we are able to keep the metronome aligned with the horizon with customization of the offset of the metronome in height, distance and speed.
+What other tech is there? Lack of ability for headset to anchor the metronome doesnt solve main head bob issue.
