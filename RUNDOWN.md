@@ -2,7 +2,7 @@
 ### Metronome Project
 #### Group Project by: Ethan Conneely – G00393941 and Ryan Harte – G00338424
 
-## Project Summary
+## Rundown Summary
 Our project focuses on two main pieces of software. Unity and Augmented Reality (AR). The original Metronome that was being used was an mp4 file. We have taken the concept of that Metronome and rendered/built it in a 3D environment using Augmented Reality. A user can now see the Metronome in a real-world space no longer hindering their vision unlike the original mp4 files. 
 
 ## Project Outline and Goals
