@@ -15,6 +15,12 @@ The following is a list of tasks that by the end of development we hope to have 
 ### What is accomplished so far?
 So far goals 1-4 have been accomplished. Goal 5 is being worked on currently. What we need now is feedback so we can adjust the application to our customer/clients' specifications, if they have any.
 
+## Project Architecture 
+Out tech stack for the project was a mix of Unity, Android, and the Moverio SDK.
+Unity was used to build out the 3d scene and integrate the view from the AR glasses into the scene.
+Andoid was our build target and how we debugged and tested the app.
+Moverio SDK was used to get specific headset data into unity.
+
 ## Project Build
 The following will explain how we have developed our project so far.
 The application started in Unity where we began using and testing the headset for tracking ability via its gyroscope. It was quite easy to use as it is an android device and as such all that was required was to switch the build environment from unity to android and use unity remote 5 for testing. We then added the Moverio sdk (software development kit) to our project application and that gave us access to more functionality in the headset such as being able to go from a 2D view to a 3D view in our application. A grid was then built-in unity to mimic the floor so we could see just how well the tracking and viewing of the world would look in real time. After this the curve and ball for the Metronome were built in blender. Blender is a 3D computer graphics software application that allows for the building of 3D models and much more. Once that was done, we imported the Metronome into unity and from there created a animation curve for the ball to move along. After this a user interface was implemented to allow setting changes for the Metronome. Our next goal is to get user feedback and to research better devices the customer could potentially use.
