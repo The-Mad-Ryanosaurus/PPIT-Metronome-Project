@@ -20,64 +20,69 @@ The following will explain how we have developed our project so far.
 The application started in Unity where we began using and testing the headset for tracking ability via its gyroscope. It was quite easy to use as it is an android device and as such all that was required was to switch the build environment from unity to android and use unity remote 5 for testing. We then added the Moverio sdk (software development kit) to our project application and that gave us access to more functionality in the headset such as being able to go from a 2D view to a 3D view in our application. A grid was then built-in unity to mimic the floor so we could see just how well the tracking and viewing of the world would look in real time. After this the curve and ball for the Metronome were built in blender. Blender is a 3D computer graphics software application that allows for the building of 3D models and much more. Once that was done, we imported the Metronome into unity and from there created a animation curve for the ball to move along. After this a user interface was implemented to allow setting changes for the Metronome. Our next goal is to get user feedback and to research better devices the customer could potentially use.
 
 ## Epson Moverio BT-300 Problems – Headset Tech Specifications 
-PRODUCT NAME	Moverio BT-300 Smart Glasses
-PRODUCT CODE	V11H756053
-OPTICAL	 
-Driving Method	Mono Crystalline Silicon Active Matrix	
-Display Size	0.43 inch wide panel (16:9)	
-Pixel Number	921,600 pixels (1280 RGB x 720)	
-Refresh Rate	30 Hz	
-Field of View	23 degrees (diagonal)	
-Screen Size (Projected Distance)	40 inch at 2.5 m - 320 inch at 20 m	
-Colour Reproduction	24 bit-colour (16.77 million colours)	
-MOVERIO OS PLATFORM	 	
-OS Version	Moverio OS	
-OS Update	Via network	
-Pre-installed Application	Live wallpaper, Moverio Apps Market, Moverio Air, Moverio Mirror (for WiFi Miracast)	
-SENSORS	 
-Camera	5 Megapixel	
-GPS	Yes, in Controller	
-Compass	Yes, 3-axis in both Headset and Controller	
-Gyroscope	Yes, 3-axis in both Headset and Controller	
-Accelerometer	Yes, 3-axis in both Headset and Controller	
-CONNECTIVITY	 	
-Wireless LAN	IEEE 802.11a/b/g/n/ac with Wi-Fi CERTIFIED™, Miracast® (source/sink) ODFM, DS-SS	
-Bluetooth	Bluetooth Smart Ready Class2 (2.5 mW, 10 m), V4.1 support profile: HSP/A2DP/HID/OPP/SPP/AVRCP/PAN	
-CPU AND MEMORY	 	
-CPU	Intel Atom x5 1.44GHz Quad Core	
-RAM	2 GB	
-Internal Memory	Approx. 16 GB (including Moverio OS)	
-USER INTERFACE	 	
-Touch-pad Pointing Method	Capacitive Multitouch	
-Function Key	Power, Home, Recents, Back, Function (Lock, Brightness, 2D/3D), Volume (+/-)	
-SUPPORTED FILE FORMATS	 	
-Video	MP4 (MPEG4/H.264+AAC), MPEG2 (H.264+AAC), VP8	
-Audio	WAV, MP3, AAC	
-3D Supports	Side By Side	
-SOUND OUTPUT	 	
-Sound Output	Maximum Audio Output Level: 150 mV	
-GENERAL	 	
-	Operating Temperature	5° C - 35° C, 41° F - 95° F, 20 % - 80 % Humidity	
-	Power Supply Voltage Controller	5 V, 900 mA via micro USB terminal	
-	Power Supply Voltage AC Adapter	100 - 240 V AC +/- 10%, 50/60 Hz with micro USB cable	
-	Battery Life	6 hrs	
-	Battery Type	Li-Polymer	
-	Dimensions: Headset	178 mm x 191 mm x 25 mm (D x W x H) (without light shielding)	
-	Dimensions: Controller	116 mm x 56 mm x 23 mm (D x W x H)	
-	Weight Headset	69 g (excluding cable)	
-	Weight Controller	129 g	
-	Warranty	12 months	
-WHAT'S IN THE BOX	 	
-- Moverio BT-300 Smart Glasses
-- AC adapter
-- USB cable
-- Carrying case
-- Inner ear Earphone with Microphone
-- Shade x2 (light and dark)
-- Inner frame for optical lenses
-- Temple rubber x2
-- Quick Setup Guide
-- User Manual (CD Rom)
+
+#### PRODUCT NAME Moverio BT-300 Smart Glasses
+#### PRODUCT CODEV11H756053
+
+#### OPTICAL
+− Driving Method Mono Crystalline Silicon Active Matrix
+− Display Size 0.43 inch wide panel (16:9)
+− Pixel Number 921,600 pixels (1280 RGB x 720)
+− Refresh Rate 30 Hz
+− Field of View 23 degrees (diagonal)
+− Screen Size (Projected Distance)40 inch at 2.5 m - 320 inch at 20 m
+− Colour Reproduction 24 bit-colour (16.77 million colours)
+#### MOVERIO OS PLATFORM
+− OS Version Moverio OS
+− OS Update Via network
+− Pre-installed Application Live wallpaper, Moverio Apps Market, Moverio Air, Moverio Mirror (for WiFi Miracast)
+#### SENSORS
+− Camera5 Megapixel
+− GPS Yes, in Controller
+− Compass Yes, 3-axis in both Headset and Controller
+− Gyroscope Yes, 3-axis in both Headset and Controller
+− Accelerometer Yes, 3-axis in both Headset and Controller
+#### CONNECTIVITY
+− Wireless LAN IEEE 802.11a/b/g/n/ac with Wi-Fi CERTIFIED™, Miracast® (source/sink) 
+ODFM, DS-SS
+− Bluetooth Bluetooth Smart Ready Class2 (2.5 mW, 10 m), V4.1 support profile: 
+HSP/A2DP/HID/OPP/SPP/AVRCP/PAN
+#### CPU AND MEMORY
+− CPU Intel Atom x5 1.44GHz Quad Core
+− RAM 2 GB
+− Internal Memory Approx. 16 GB (including Moverio OS)
+− USER INTERFACE
+− Touch-pad Pointing Method Capacitive Multitouch
+− Function Key Power, Home, Recents, Back, Function (Lock, Brightness, 2D/3D), Volume 
+(+/-)
+#### SUPPORTED FILE FORMATS
+− Video MP4 (MPEG4/H.264+AAC), MPEG2 (H.264+AAC), VP8
+− Audio WAV, MP3, AAC
+− 3D Supports Side By Side
+#### SOUND OUTPUT
+− Sound Output Maximum Audio Output Level: 150 mV
+GENERAL
+− Operating Temperature 5° C - 35° C, 41° F - 95° F, 20 % - 80 % Humidity
+− Power Supply Voltage Controller 5 V, 900 mA via micro USB terminal
+− Power Supply Voltage AC Adapter 100 - 240 V AC +/- 10%, 50/60 Hz with micro USB cable
+− Battery Life 6 hrs
+− Battery Type Li-Polymer
+− Dimensions: Headset 178 mm x 191 mm x 25 mm (D x W x H) (without light shielding)
+− Dimensions: Controller 116 mm x 56 mm x 23 mm (D x W x H)
+− Weight Headset69 g (excluding cable)
+− Weight Controller 129 g
+− Warranty 12 months
+#### WHAT'S IN THE BOX
+− Moverio BT-300 Smart Glasses
+− AC adapter
+− USB cable
+− Carrying case
+− Inner ear Earphone with Microphone
+− Shade x2 (light and dark)
+− Inner frame for optical lenses
+− Temple rubber x2
+− Quick Setup Guide
+− User Manual (CD Rom
 
 
 ## Problems
