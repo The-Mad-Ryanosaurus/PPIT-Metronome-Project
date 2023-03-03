@@ -6,7 +6,7 @@
 Our project focuses on two main pieces of software. Unity and Augmented Reality (AR). The original Metronome that was being used was an mp4 file. We have taken the concept of that Metronome and rendered/built it in a 3D environment using Augmented Reality. A user can now see the Metronome in a real-world space no longer hindering their vision unlike the original mp4 files.
 
 ## Project Outline and Goals
-The following is a list of tasks that by the end of development we hope to have accomplished to deliver a revitalised product that we feel will be a huge improvement on the original mp4 files.
+The following is a list of tasks that by the end of development we hope to have accomplished to deliver a revitalized product that we feel will be a huge improvement on the original mp4 files.
 1.	The Metronome built and moving across its curve line.
 2.	Metronome Working in a 3D space in Augmented Reality.
 3.	Tracking of Head Movements to the user’s specification (Metronome locked on the x axis and cannot move up or down).
@@ -15,17 +15,17 @@ The following is a list of tasks that by the end of development we hope to have 
 ### What is accomplished so far?
 So far goals 1-4 have been accomplished. Goal 5 is being worked on currently. What we need now is feedback so we can adjust the application to our customer/clients' specifications, if they have any.
 
-## Project Architecture 
+## Project Architecture
 Our tech stack for the project was a mix of Unity, Android, and the Moverio SDK.
 Unity was used to build out the 3D scene and integrate the view from the AR glasses into the scene.
-Andoid was our build target and how we debugged and tested the app.
+Android was our build target and how we debugged and tested the app.
 Moverio SDK was used to get specific headset data into unity.
 
 ## Project Build
 The following will explain how we have developed our project so far.
 The application started in Unity where we began using and testing the headset for tracking ability via its gyroscope. It was quite easy to use as it is an android device and as such all that was required was to switch the build environment from unity to android and use unity remote 5 for testing. We then added the Moverio sdk (software development kit) to our project application and that gave us access to more functionality in the headset such as being able to go from a 2D view to a 3D view in our application. A grid was then built-in unity to mimic the floor so we could see just how well the tracking and viewing of the world would look in real time. After this the curve and ball for the Metronome were built in blender. Blender is a 3D computer graphics software application that allows for the building of 3D models and much more. Once that was done, we imported the Metronome into unity and from there created a animation curve for the ball to move along. After this a user interface was implemented to allow setting changes for the Metronome. Our next goal is to get user feedback and to research better devices the customer could potentially use.
 
-## Epson Moverio BT-300 Problems – Headset Tech Specifications 
+## Epson Moverio BT-300 Problems – Headset Tech Specifications
 
 ## OPTICAL
 - Driving Method Mono Crystalline Silicon Active Matrix
@@ -91,9 +91,9 @@ The application started in Unity where we began using and testing the headset fo
 - User Manual
 
 ## Problems
-Glasses are not capable of spatially tracking the headset so the head bobbing will not be counteracted, but the glasses are able to track rotation, via the headset’s gyroscope, so we are able to keep the metronome aligned with the horizon (the height it’s positioned at) with the added allowance of customization to the metronome’s height, distance and speed by the user. Lack of ability for headset to anchor the metronome doesn’t solve main head bobbing issue. So, what is the solution? 
-The headset has very little in terms of power as you can see from the specifications above and with only one camera it is impossible to triangulate a person’s position for the following reasons. The camera works the same as any mobile device. It is capable of recording and taking pictures but unlike other AR headsets (such as the Microsoft Hololens) it cannot recognise a real-world space with a person standing at its centre. We can project videos/applications and many other forms of media to the headset’s lenses while a user is wearing them.
-This is what we have done with our project to make it work as best it can on such a piece of technology. In unity we have 3 cameras added to a scene to generate our metronome in a 3D environment. These cameras mimic a users’ head/eyes. Tracking then works via the headset’s gyroscope so that when a person’s head moves, the cameras in unity move. The metronome then follows the users’ movements at the same parameters mentioned earlier. In doing this we eliminated the mp4’s dark background that the original file had and have a metronome now moving while a user can see their surroundings. 
+Glasses are not capable of spatially tracking the headset so the head bobbing will not be counteracted, but the glasses are able to track rotation, via the headset’s gyroscope, so we are able to keep the metronome aligned with the horizon (the height it’s positioned at) with the added allowance of customization to the metronome’s height, distance and speed by the user. Lack of ability for headset to anchor the metronome doesn’t solve main head bobbing issue. So, what is the solution?
+The headset has very little in terms of power as you can see from the specifications above and with only one camera it is impossible to triangulate a person’s position for the following reasons. The camera works the same as any mobile device. It is capable of recording and taking pictures but unlike other AR headsets (such as the Microsoft Hololens) it cannot recognize a real-world space with a person standing at its centre. We can project videos/applications and many other forms of media to the headset’s lenses while a user is wearing them.
+This is what we have done with our project to make it work as best it can on such a piece of technology. In unity we have 3 cameras added to a scene to generate our metronome in a 3D environment. These cameras mimic a users’ head/eyes. Tracking then works via the headset’s gyroscope so that when a person’s head moves, the cameras in unity move. The metronome then follows the users’ movements at the same parameters mentioned earlier. In doing this we eliminated the mp4’s dark background that the original file had and have a metronome now moving while a user can see their surroundings.
 
-## Solutions 
+## Solutions
 The lack of ability to anchor the metronome due to the headsets lack of capabilities to do so means the only solution is to develop this application on a headset that is capable. A Microsoft Hololens would be the only headset currently we feel is capable doing so. (add in why here)
