@@ -16,8 +16,8 @@ The following is a list of tasks that by the end of development we hope to have 
 So far goals 1-4 have been accomplished. Goal 5 is being worked on currently. What we need now is feedback so we can adjust the application to our customer/clients' specifications, if they have any.
 
 ## Project Architecture 
-Out tech stack for the project was a mix of Unity, Android, and the Moverio SDK.
-Unity was used to build out the 3d scene and integrate the view from the AR glasses into the scene.
+Our tech stack for the project was a mix of Unity, Android, and the Moverio SDK.
+Unity was used to build out the 3D scene and integrate the view from the AR glasses into the scene.
 Andoid was our build target and how we debugged and tested the app.
 Moverio SDK was used to get specific headset data into unity.
 
