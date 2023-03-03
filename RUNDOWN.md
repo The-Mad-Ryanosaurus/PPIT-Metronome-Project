@@ -57,27 +57,28 @@ Audio	WAV, MP3, AAC
 SOUND OUTPUT	 	
 Sound Output	Maximum Audio Output Level: 150 mV	
 GENERAL	 	
-Operating Temperature	5° C - 35° C, 41° F - 95° F, 20 % - 80 % Humidity	
-Power Supply Voltage Controller	5 V, 900 mA via micro USB terminal	
-Power Supply Voltage AC Adapter	100 - 240 V AC +/- 10%, 50/60 Hz with micro USB cable	
-Battery Life	6 hrs	
-Battery Type	Li-Polymer	
-Dimensions: Headset	178 mm x 191 mm x 25 mm (D x W x H) (without light shielding)	
-Dimensions: Controller	116 mm x 56 mm x 23 mm (D x W x H)	
-Weight Headset	69 g (excluding cable)	
-Weight Controller	129 g	
-Warranty	12 months	
+	Operating Temperature	5° C - 35° C, 41° F - 95° F, 20 % - 80 % Humidity	
+	Power Supply Voltage Controller	5 V, 900 mA via micro USB terminal	
+	Power Supply Voltage AC Adapter	100 - 240 V AC +/- 10%, 50/60 Hz with micro USB cable	
+	Battery Life	6 hrs	
+	Battery Type	Li-Polymer	
+	Dimensions: Headset	178 mm x 191 mm x 25 mm (D x W x H) (without light shielding)	
+	Dimensions: Controller	116 mm x 56 mm x 23 mm (D x W x H)	
+	Weight Headset	69 g (excluding cable)	
+	Weight Controller	129 g	
+	Warranty	12 months	
 WHAT'S IN THE BOX	 	
-•	Moverio BT-300 Smart Glasses
-•	AC adapter
-•	USB cable
-•	Carrying case
-•	Inner ear Earphone with Microphone
-•	Shade x2 (light and dark)
-•	Inner frame for optical lenses
-•	Temple rubber x2
-•	Quick Setup Guide
-•	User Manual (CD Rom)
+- Moverio BT-300 Smart Glasses
+- AC adapter
+- USB cable
+- Carrying case
+- Inner ear Earphone with Microphone
+- Shade x2 (light and dark)
+- Inner frame for optical lenses
+- Temple rubber x2
+- Quick Setup Guide
+- User Manual (CD Rom)
+
 
 ## Problems
 Glasses are not capable of spatially tracking the headset so the head bobbing will not be counteracted, but the glasses are able to track rotation, via the headset’s gyroscope, so we are able to keep the metronome aligned with the horizon (the height it’s positioned at) with the added allowance of customization to the metronome’s height, distance and speed by the user. Lack of ability for headset to anchor the metronome doesn’t solve main head bobbing issue. So, what is the solution? 
