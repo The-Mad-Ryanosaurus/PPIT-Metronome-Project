@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{b03039b1-4f70-bd6a-84e0-7ada7699396e}</ProjectGuid>
+    <ProjectGuid>{e4e8310d-77db-817e-8ecc-63adad8d8cfd}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Unity.PlayerPrefsEditor.EditorResources</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -36,50 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Metronome\_Scripts\FadeOut.cs" />
-     <Compile Include="Assets\Metronome\_Scripts\FollowPath.cs" />
-     <Compile Include="Assets\Metronome\_Scripts\Gui\ChangeColor.cs" />
-     <Compile Include="Assets\Metronome\_Scripts\Gui\ChangeSlider.cs" />
-     <Compile Include="Assets\Metronome\_Scripts\Gui\ColorSetting.cs" />
-     <Compile Include="Assets\Metronome\_Scripts\Gui\ResetToHeadHeight.cs" />
-     <Compile Include="Assets\Metronome\_Scripts\Settings\BallScaleSetting.cs" />
-     <Compile Include="Assets\Metronome\_Scripts\Settings\ChangeSetting.cs" />
-     <Compile Include="Assets\Metronome\_Scripts\Settings\HeightAndDistanceSetting.cs" />
-     <Compile Include="Assets\Metronome\_Scripts\Settings\SettingDefaults.cs" />
-     <Compile Include="Assets\Metronome\_Scripts\SmoothFollow.cs" />
-     <Compile Include="Assets\Metronome\_Scripts\SyncRotation.cs" />
-     <Compile Include="Assets\SettingText.cs" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-     <None Include="Assets\MRTK\Shaders\Text3DShader.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets\MRTK\Shaders\InstancedColored.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-     <None Include="Assets\MRTK\Shaders\ChannelPacker.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-     <None Include="Assets\MRTK\Shaders\InvisibleShader.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\MRTK\Shaders\MixedRealityStandard.shader" />
-     <None Include="Assets\MRTK\Shaders\MixedRealityTextMeshPro.shader" />
-     <None Include="Assets\MRTK\Shaders\MRTK_Wireframe.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-     <None Include="Assets\MRTK\Shaders\DepthBufferPostProcess.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-     <None Include="Assets\MixedRealityToolkit.Generated\link.xml" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-     <None Include="Assets\MRTK\Shaders\MixedRealityShaderUtils.cginc" />
+     <Compile Include="Assets\PlayerPrefsEditor\Editor Resources\ImageManager.cs" />
+     <None Include="Assets\PlayerPrefsEditor\Editor Resources\Unity.PlayerPrefsEditor.EditorResources.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -106,6 +64,12 @@
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+        <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+        <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
@@ -256,6 +220,33 @@
     </Reference>
     <Reference Include="UnityEditor">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+        <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.40f1\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+        <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+        <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.40f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UWP.Extensions">
+        <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.40f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\PackageCache\com.unity.collab-proxy@1.14.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\PackageCache\com.unity.collab-proxy@1.14.18\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\PackageCache\com.unity.collab-proxy@1.14.18\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\PackageCache\com.unity.collab-proxy@1.14.18\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -614,244 +605,20 @@
     <Reference Include="Boo.Lang">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.Management">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.SceneSystem">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Subsystem.Registration">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Async">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Gltf">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARSubsystems">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARSubsystems.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.InteractionSubsystems">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.Tracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll</HintPath>
+    <Reference Include="UnityEditor.TestRunner">
+        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.SDK">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.OpenVR">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenVR.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.TeleportSystem">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Gltf.Importers">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.WindowsMixedReality.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.BoundarySystem">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.BoundarySystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.WindowsMixedReality">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.HandPhysics">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    <Reference Include="UnityEngine.TestRunner">
+        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj">
-      <Project>{da110748-af46-c7f4-b585-adcdbbd1e460}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj">
-      <Project>{ed0a76e5-1437-c3e9-5ad3-341b820afb80}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Demos.Gltf</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj">
-      <Project>{7d9b6e37-a577-df5f-15e5-4d68d6b3143a}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Demos.UX.Interactables</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj">
-      <Project>{33e2d595-a382-2049-64ab-d3f67a917e88}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Examples.Editor.Dwell.csproj">
-      <Project>{525c9c43-ecfc-4012-1294-5c3f47e09b24}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Examples.Editor.Dwell</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj">
-      <Project>{cff73a17-b6cf-1283-2f89-e487bc2aa3b8}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Demos.InspectorFields</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj">
-      <Project>{3ddd0cbd-cfa0-72d9-9b4f-4e96855fa6d1}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Examples.csproj">
-      <Project>{62369b68-20c9-2bc0-d818-5ecffd197473}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Examples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlayerPrefsEditor.Editor.csproj">
-      <Project>{422ab412-2fca-9487-b364-1efdefd36b29}</Project>
-      <Name>Unity.PlayerPrefsEditor.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlayerPrefsEditor.EditorResources.csproj">
-      <Project>{e4e8310d-77db-817e-8ecc-63adad8d8cfd}</Project>
-      <Name>Unity.PlayerPrefsEditor.EditorResources</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlayerPrefsEditor.Samples.SampleScene.csproj">
-      <Project>{ac4c9feb-7df2-d041-f1dc-53695433e2fb}</Project>
-      <Name>Unity.PlayerPrefsEditor.Samples.SampleScene</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

@@ -8,7 +8,12 @@ public class SmoothFollow : MonoBehaviour
 
     private void Update()
     {
-        float y = Mathf.SmoothDampAngle(transform.rotation.eulerAngles.y, target.rotation.eulerAngles.y, ref velocity, Time.smoothDeltaTime, PlayerPrefs.GetFloat("TurnSpeed", 10));
+        float currentAngle = transform.rotation.eulerAngles.y;
+        float targetAngle = target.rotation.eulerAngles.y;
+
+        float delta = Mathf.Abs(currentAngle - targetAngle);
+
+        float y = Mathf.SmoothDampAngle(currentAngle, targetAngle, ref velocity, Time.smoothDeltaTime, delta * 3);
 
         transform.rotation = Quaternion.Euler(0, y, 0);
 

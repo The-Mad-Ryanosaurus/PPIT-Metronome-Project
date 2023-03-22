@@ -15,7 +15,7 @@ public class FollowPath : MonoBehaviour
     private void Update()
     {
         // Update the timer for lerping at the given frequency
-        timer += Time.deltaTime * PlayerPrefs.GetFloat("Speed", .5f);
+        timer += Time.deltaTime * PlayerPrefs.GetFloat("Speed");
 
         // PingPong will return a value between 0 and 1
         float t = Mathf.PingPong(timer, 1f);
