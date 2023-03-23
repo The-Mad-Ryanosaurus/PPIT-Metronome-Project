@@ -8,6 +8,6 @@ public class ResetToHeadHeight : MonoBehaviour
     {
         var cam = FindObjectOfType<Camera>();
 
-        PlayerPrefs.SetFloat("Height", cam.transform.position.y + 1f);
+        PlayerPrefs.SetFloat("Height", cam.transform.position.y);
     }
 }
