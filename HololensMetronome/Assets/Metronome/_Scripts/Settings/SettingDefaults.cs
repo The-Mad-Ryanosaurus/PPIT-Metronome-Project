@@ -24,6 +24,11 @@ public class SettingDefaults : MonoBehaviour
             PlayerPrefs.SetFloat("Height", 0f);
         }
 
+        if (PlayerPrefs.HasKey("Color") == false)
+        {
+            PlayerPrefs.SetString("Color", "Green");
+        }
+
         if (PlayerPrefs.HasKey("BallSize") == false)
         {
             PlayerPrefs.SetFloat("BallSize", .5f);
@@ -32,6 +37,11 @@ public class SettingDefaults : MonoBehaviour
         if (PlayerPrefs.HasKey("Speed") == false)
         {
             PlayerPrefs.SetFloat("Speed", 1f);
+        }
+
+        if (PlayerPrefs.HasKey("TrackSpeed") == false)
+        {
+            PlayerPrefs.SetFloat("TrackSpeed", 5f);
         }
     }
 

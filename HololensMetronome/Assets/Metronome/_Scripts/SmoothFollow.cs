@@ -13,7 +13,7 @@ public class SmoothFollow : MonoBehaviour
 
         transform.rotation = Quaternion.Euler(
             0,
-            Mathf.LerpAngle(currentAngle, targetAngle, Time.deltaTime),
+            Mathf.LerpAngle(currentAngle, targetAngle, Time.deltaTime * PlayerPrefs.GetFloat("TrackSpeed")),
             0
         );
 
