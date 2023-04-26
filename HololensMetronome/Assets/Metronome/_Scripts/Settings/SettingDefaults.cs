@@ -1,18 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Microsoft.MixedReality.Toolkit.Input;
+
 using UnityEngine;
 
 public class SettingDefaults : MonoBehaviour
 {
     [SerializeField] private GameObject settings;
+    [SerializeField] private float clickSpeed = 1;
 
-    [SerializeField] float clickSpeed = 1;
+    private float timer = 0f;
+    private int clicks = 0;
+    private GameObject cursor;
 
-    float timer = 0f;
-
-    int clicks = 0;
-
-    void Awake()
+    private void Awake()
     {
         if (PlayerPrefs.HasKey("Distance") == false)
         {
@@ -45,17 +44,29 @@ public class SettingDefaults : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        Invoke(nameof(GetCursor), 1);
+    }
+
+    private void GetCursor()
+    {
+        cursor = FindObjectOfType<AnimatedCursor>().gameObject;
+    }
+
     public void Click()
     {
         clicks++;
     }
 
-    void Update()
+    private void Update()
     {
         if (clicks == 1 && timer == 0)
         {
             timer = Time.time;
         }
+
+        cursor?.SetActive(settings.activeSelf);
 
         if (clicks == 3)
         {

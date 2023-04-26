@@ -5848,7 +5848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83d9acc7968244a8886f3af591305bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeProfile: {fileID: 11400000, guid: fbb8235a0e1db804880e49990996f5a4, type: 2}
+  activeProfile: {fileID: 11400000, guid: 44fcd83c78ae40947a7ae1c0d8662337, type: 2}
 --- !u!4 &1726946642
 Transform:
   m_ObjectHideFlags: 0
@@ -7138,7 +7138,6 @@ GameObject:
   - component: {fileID: 114063682820154275}
   - component: {fileID: 2787685476762476829}
   - component: {fileID: 121640137}
-  - component: {fileID: 1036546431638032}
   m_Layer: 5
   m_Name: UGUIScrollViewContent
   m_TagString: Untagged
@@ -7146,20 +7145,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1036546431638032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036546431638031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84d69c7b1a5b54a41926cf5a66aa127d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  settings: {fileID: 0}
-  clickSpeed: 1
 --- !u!114 &113567877886339605
 MonoBehaviour:
   m_ObjectHideFlags: 0
