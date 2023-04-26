@@ -23,7 +23,7 @@ public class HeightAndDistanceSetting : MonoBehaviour
 
     private void Update()
     {
-        headsmoothHeight = Mathf.MoveTowards(headsmoothHeight, headHeight, Time.deltaTime);
+        headsmoothHeight = Mathf.MoveTowards(headsmoothHeight, headHeight, Time.deltaTime * 0.1f);
         transform.localPosition = new Vector3(0, headsmoothHeight + PlayerPrefs.GetFloat("Height"), PlayerPrefs.GetFloat("Distance"));
     }
 }
