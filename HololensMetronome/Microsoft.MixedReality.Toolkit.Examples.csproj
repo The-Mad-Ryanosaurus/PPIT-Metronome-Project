@@ -724,11 +724,11 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>A:\PPIT-Metronome-Project\HololensMetronome\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
