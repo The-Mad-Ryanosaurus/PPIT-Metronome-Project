@@ -13,8 +13,8 @@ Group Project By
   <br>
   <a href="https://github.com/The-Mad-Ryanosaurus">Ryan Harte (G00338424)</a>
   <br>
-  <h3 align="centre"><a href="./RUNDOWN.md">Rundown</a> <h3/>
+  <h3 align="center"><a href="./RUNDOWN.md">Rundown</a> <h3/>
 </p>
-  <h3><a href="./DOCUMENTATION.md">Documentation</a> <h3/>
+  <h3 aling="center"><a href="./DOCUMENTATION.md">Documentation</a> <h3/>
 </p>
 
