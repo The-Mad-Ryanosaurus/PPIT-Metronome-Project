@@ -20,7 +20,8 @@ The project aims to solve a medical impediment with a software solution using AR
 
 At the very start of the semester our project supervisor gave us a choice of three projects to choose from. We chose this project for several reasons but the main ones being that it combined a development environment we both know and love (Unity) with an area of technology we had never touched on before (Augmented Reality). The project itself is being developed to aid in our client's ability to walk. It was found that visual aids help greatly in our client's ability to get from point A to B, as this project started as a bicycle helmet with a windshield wiper going back and forth. As the project progressed it eventually landed us to create an AR solution so that our client would be able to use a visual aid in a real-world setting.
 
-##Technologies Used for Development
+## Technologies Used for Development
+Augmented Reality (AR), Unity and Blender
 
 ### Augmented Reality (AR)
 
