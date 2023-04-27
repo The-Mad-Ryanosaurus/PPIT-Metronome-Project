@@ -15,6 +15,5 @@ Group Project By
   <br>
   <h2 align="center"> <a href="./RUNDOWN.md">Rundown</a> <h2/>
   <h2 align="center"> <a href="./DOCUMENTATION.md">Documentation</a> <h2/>
-  <br>
 </p>
 
